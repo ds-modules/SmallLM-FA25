@@ -9,11 +9,13 @@ I am not an expert in the field and the speed these things are changing this mat
 Basically the notebooks can also be understood as introducing two Python AI oriented packages.  `GPT4all` is a package which facilitates the use of open source models in a Pythonic frameworks, the models can be stored and hosted locally.  `openai` is a python framework for interacting with OpenAI models via an API 
 
 ## Notebooks 
- - GPT4All_Download_gguf.ipynb - only open this notebook if you need to download the models - this notebook has code for both local storage or on an online server.  An instructor would want to use a notebook like this to set up the frameword for instruction.
+ - [GPT4All_Download_gguf.ipynb](GPT4All_Download_gguf.ipynb) - only open this notebook if you need to download the models - this notebook has code for both local storage or on an online server.  An instructor would want to use a notebook like this to set up the frameword for instruction.
    
- - GPT4All_SmallLM_Demo.ipynb - this is the main demonstration notebook - and assumes that the instructor has already put the models in a shared repository 
+ - [GPT4All_SmallLM_Demo.ipynb](GPT4All_SmallLM_Demo.ipynb) - this is the main demonstration notebook - and assumes that the instructor has already put the models in a shared repository 
    
- - OpenAI_API.ipynb - this notebook uses an API to connect to OpenAI models. It requires that the instructor purchase an API key and that instructor have a way to circulate the key to the students.  
+ - [OpenAI_API.ipynb](OpenAI_API.ipynb) - this notebook uses an API to connect to OpenAI models. It requires that the instructor purchase an API key and that instructor have a way to circulate the key to the students.
+   
+ - [Anthropic_API.ipynb](Anthropic_API.ipynb) - use Anthropic instead of OpenAI.
 
 
 ## There a few key issues for setup
