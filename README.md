@@ -21,4 +21,4 @@ Basically the notebooks can also be understood as introducing two Python AI orie
 - **which models?** I was going for the smallest of models. Partly to fit on the parameters of the teaching Jupyterhub at UC Berkeley where students had 4gb ram and no CPU. But that is precisely what I was trying too teach eg what can a tiny model do. So specifically I used models around a 1gb - which means 1b parameters and quantized.
 - **Using an API** In the OpenAI API Notebook *you need an API key*. I opened an acccount and put $50 down and after 150 students had used the API we had used $0.05 = 5 cents worth of API access.  But that is a learning outcome.
 
-##  Link to Run on Cal-ICOR hub - November 2025 [Interact Link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fds-modules%2FSmallLM-FA25&urlpath=lab%2Ftree%2FSmallLM-FA25%2F)
+##  Link to Run on Cal-ICOR hub - November 2025 [Interact Link](https://jupyter.cal-icor.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fds-modules%2FSmallLM-FA25&urlpath=lab%2Ftree%2FSmallLM-FA25%2F)
