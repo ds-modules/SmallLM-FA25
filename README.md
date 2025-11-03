@@ -13,14 +13,14 @@ Basically the notebooks can also be understood as introducing two Python AI orie
    
  - [GPT4All_SmallLM_Demo.ipynb](GPT4All_SmallLM_Demo.ipynb) - this is the main demonstration notebook - and assumes that the instructor has already put the models in a shared repository 
    
- - [OpenAI_API.ipynb](OpenAI_API.ipynb) - this notebook uses an API to connect to OpenAI models. It requires that the instructor purchase an API key and that instructor have a way to circulate the key to the students.
+ - [OpenAI_API.ipynb](OpenAI_API.ipynb) - this notebook uses a python package from Open AI and an API to connect to OpenAI models. It requires that the instructor purchase an API key and that instructor have a way to circulate the key to the students.
    
- - [Anthropic_API.ipynb](Anthropic_API.ipynb) - use Anthropic instead of OpenAI.
+ - [Anthropic_API.ipynb](Anthropic_API.ipynb) - use Anthropic pandas library and API key instead of OpenAI.
 
 
 ## There a few key issues for setup
 - **model weights** In the Small Models notebook - the small models "weights" must be downloaded from Huggingface. I include here a [separate notebook](GPT4All_Download_gguf.ipynb) for this. When I taught this in class I did this step myself, then put the models into a shared directory on the Juptyerhub where I was teaching and where the students could read them from.
 - **which models?** I was going for the smallest of models. Partly to fit on the parameters of the teaching Jupyterhub at UC Berkeley where students had 4gb ram and no GPU. But that is precisely what I was trying to teach: what can a tiny model do. So specifically I used models around 1 GB - which means 1b parameters and quantized.
-- **Using an API** In the OpenAI API Notebook *you need an API key*. I opened an acccount and put $50 down and after 150 students had used the API we had used $0.05 = 5 cents worth of API access.
+- **Using an API** In the OpenAI API Notebook *you need an API key*. I opened an acccount and put $50 down and after 150 students had used the API we had used $0.05 = 5 cents worth of API access.  For this demo I am using the shared directory to share API key access only to authenticated users
 
 ##  Link to Run on Cal-ICOR hub - November 2025 [Interact Link](https://jupyter.cal-icor.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fds-modules%2FSmallLM-FA25&urlpath=lab%2Ftree%2FSmallLM-FA25%2F)
