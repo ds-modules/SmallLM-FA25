@@ -13,6 +13,8 @@ Basically the notebooks can also be understood as introducing two Python AI orie
    
  - [GPT4All_SmallLM_Demo.ipynb](GPT4All_SmallLM_Demo.ipynb) - this is the main demonstration notebook - and assumes that the instructor has already put the models in a shared repository 
    
+ - [Inside_Small_Model.ipynb](Inside_Small_Model.ipynb) - **NEW!** An educational deep-dive into how language models work internally. This notebook visualizes tokenization, model output probabilities, and decoding strategies (temperature, top-k, top-p). Works with any .gguf model (OLMo, Mistral, Phi, Qwen, Llama, etc.) and requires no PyTorch - just GPT4All. Perfect for teaching students what happens "inside" a small model.
+   
  - [OpenAI_API.ipynb](OpenAI_API.ipynb) - this notebook uses a python package from Open AI and an API to connect to OpenAI models. It requires that the instructor purchase an API key and that instructor have a way to circulate the key to the students.
    
  - [Anthropic_API.ipynb](Anthropic_API.ipynb) - use Anthropic pandas library and API key instead of OpenAI.
