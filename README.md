@@ -6,12 +6,14 @@ This work is based on work from Greg Merritt - [Ollama Demo](https://github.com/
 
 I am not an expert in the field and the speed these things are changing this material and even the approach will be soon obsolete. But it was my objective to illustrate in some small and incremental way what is going on with these models which are changing out lives and disrupting our society every day. I taught these in the last week of my class [Data Science for Economists](https://www.econ148.org/) so these students had 1) already seen quite a bit of Python programming, and 2) I motivated the discussion around the cost of models and the cost of tokens eg elemental economics of language models.   
 
-Basically the notebooks can also be understood as introducing two Python AI oriented packages.  `GPT4all` is a package which facilitates the use of open source models in a Pythonic frameworks, the models can be stored and hosted locally.  `openai` is a python framework for interacting with OpenAI models via an API 
+Basically the notebooks can also be understood as introducing three Python AI oriented packages: `GPT4all` is a package which facilitates the use of open source models in a Pythonic framework, `llama-cpp-python` provides more direct Python bindings to the llama.cpp inference engine, and `openai` is a Python framework for interacting with OpenAI models via an API. The models can be stored and hosted locally.
 
 ## Notebooks 
  - [GPT4All_Download_gguf.ipynb](GPT4All_Download_gguf.ipynb) - only open this notebook if you need to download the models - this notebook has code for both local storage or on an online server.  An instructor would want to use a notebook like this to set up the framework for instruction.
    
  - [GPT4All_SmallLM_Demo.ipynb](GPT4All_SmallLM_Demo.ipynb) - this is the main demonstration notebook - and assumes that the instructor has already put the models in a shared repository 
+
+ - [LlamaCpp_SmallLM_Demo.ipynb](LlamaCpp_SmallLM_Demo.ipynb) - **NEW!** An alternative to the GPT4All demo that uses the `llama-cpp-python` package instead. This notebook provides more direct access to the llama.cpp inference engine, with detailed explanations of the package, its features, and how it compares to GPT4All. Works with any GGUF model from Hugging Face.
    
  - [Inside_Small_Model.ipynb](Inside_Small_Model.ipynb) - **NEW!** An educational deep-dive into how language models work internally. This notebook visualizes tokenization, model output probabilities, and decoding strategies (temperature, top-k, top-p). Works with any .gguf model (OLMo, Mistral, Phi, Qwen, Llama, etc.) and requires no PyTorch - just GPT4All. Perfect for teaching students what happens "inside" a small model.
    
