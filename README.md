@@ -9,6 +9,8 @@ I am not an expert in the field and the speed these things are changing this mat
 Basically the notebooks can also be understood as introducing three Python AI oriented packages: `GPT4all` is a package which facilitates the use of open source models in a Pythonic framework, `llama-cpp-python` provides more direct Python bindings to the llama.cpp inference engine, and `openai` is a Python framework for interacting with OpenAI models via an API. The models can be stored and hosted locally.
 
 ## Notebooks 
+ - [HuggingFace_Hub_Download_gguf.ipynb](HuggingFace_Hub_Download_gguf.ipynb) - **NEW!** Download GGUF models directly from Hugging Face Hub to a shared directory. This is the recommended approach for downloading models, as it provides access to thousands of models and allows configuring a shared cache directory for classroom use. Works with llama-cpp-python for testing.
+ 
  - [GPT4All_Download_gguf.ipynb](GPT4All_Download_gguf.ipynb) - only open this notebook if you need to download the models - this notebook has code for both local storage or on an online server.  An instructor would want to use a notebook like this to set up the framework for instruction.
    
  - [GPT4All_SmallLM_Demo.ipynb](GPT4All_SmallLM_Demo.ipynb) - this is the main demonstration notebook - and assumes that the instructor has already put the models in a shared repository 
